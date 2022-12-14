@@ -1,0 +1,149 @@
+     body{
+        background-color: rgb(255, 255, 255);
+     }
+    #navM{
+        display: flex;
+       
+        /* border: 0.0001px solid black; */
+      
+        margin-top: 0px;
+        
+    }
+#nav1{
+    display: flex;
+    width: 87%;
+    
+     justify-content: space-between;
+    
+}
+#nav1 img{
+   width: 300px;
+   height: 100px;
+   margin-left: 10px;
+}
+#nav1 #Search{
+    width: 75%;
+    height: 30px;
+    margin-top:40px; 
+    background-color: rgb(243, 246, 249);
+    border-radius: 5px;
+
+}
+#nav2{
+    display: flex;
+    width: 10%;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-top:43px; 
+    /* border: 1px solid black; */
+    
+    
+}
+#nav2 img{
+    height:40%;
+    width: 30px;
+
+}
+#anchor{
+    display: flex;
+    width:99%;
+    margin-left: 10px;
+    margin-top: 15px;
+    
+}
+#an1{
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    
+}
+#an1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+
+  a:hover{
+    background-color: rgb(0, 150, 237);
+    text-decoration: underline;
+    text-decoration: dotted;
+  }
+#an2 a{
+    text-decoration: none;
+    /* color: black; */
+    font-size:18px;
+    
+}
+#an2{
+    display: flex;
+    font-weight: 600;
+
+    width: 20%;
+    justify-content: space-between;
+    margin-left: 180px;
+    text-align: end;
+    
+}
+#ared {
+    color: red;
+}
+#ablack{
+    color: black;
+}
+#main1{
+    margin-top: 40px;
+    width: 98%;
+ 
+   height: 700px;
+   margin: auto;
+   
+   background-image: url("./image/sofa-buying-guide-2048px-7108-2x1-1.png") ;
+
+}
+#main1 img{
+    
+    width: 100%;
+    margin: auto;
+    height: 700px;
+    position: sticky;
+}
+#h11{
+    text-align: center;
+}
+#main2{
+    margin-top: 40px;
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(2,auto);
+    margin: auto;
+    gap: 30px;
+    text-align: center;
+    font-size: 8px;
+}
+#main2 div{
+    background-color: rgb(255, 255, 255);
+}
+#main2 img{
+    width: 100%;
+}
+#main3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,auto);
+    margin: auto;
+    gap: 30px;
+    text-align: center;
+    font-size: 8px;
+    margin-top: 40px;
+    width: 95%;
+}
+#main3 img{
+    width: 100%;
+}
+#main3h1{
+    text-align: center;
+}
+
