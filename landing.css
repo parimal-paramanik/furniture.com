@@ -146,4 +146,106 @@
 #main3h1{
     text-align: center;
 }
+#footer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    height: 330px;
+   background-color: rgba(75, 72, 69, 0.861);
+   
+  
 
+}
+#footer p, h5{
+    color: white;
+}
+#footer2 p, h5{
+    color: white;
+}
+#footer2{
+    display: flex;
+    width: 100%;
+    
+    justify-content: space-between;
+    background-color: rgb(55, 52, 52);
+   
+
+}
+
+#footer2-0{
+    width: 25%;
+   
+    margin-left: 50px;
+}
+#footer2-1{
+    display: flex;
+    
+    justify-content: space-around;
+   
+    margin-right:100px;
+    width:30%;
+}
+#main4{
+    width: 98%;
+    margin: auto;
+    margin-top: 30PX;
+    
+}
+#main4 img{
+    width: 100%;
+}
+
+#overstock{
+    margin-top: 40px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    margin: auto;
+    gap: 30px;
+    text-align: center;
+    font-size: 20px;
+
+}
+#overstock img{
+    width: 100%;
+}
+#overstockh1{
+    text-align: center;
+    color: rgba(255, 0, 0, 0.966) ;
+    font-size: 25px;
+}
+#main5{
+    margin-top: 70px;
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+    margin: auto;
+    gap: 30px;
+    text-align: center;
+    
+
+
+}
+#main5 div{
+    background-color: rgb(211, 215, 214);
+    color: rgb(0, 0, 0);
+   
+}
+#main6{
+    padding-top: 60px;
+    padding-bottom: 40px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(2,auto);
+    margin: auto;
+    gap: 30px;
+    text-align: center;
+    font-size: 8px;
+
+}
+#main6 img{
+width: 100%;
+}
