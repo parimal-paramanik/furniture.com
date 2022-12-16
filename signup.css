@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(255, 255, 255);
+ }
+#navM{
+    display: flex;
+   
+    /* border: 0.0001px solid black; */
+  
+    margin-top: 0px;
+    
+}
+#nav1{
+display: flex;
+width: 87%;
+
+ justify-content: space-between;
+
+}
+#nav1 img{
+width: 300px;
+height: 100px;
+margin-left: 10px;
+}
+#nav1 #Search{
+width: 75%;
+height: 30px;
+margin-top:40px; 
+background-color: rgb(243, 246, 249);
+border-radius: 5px;
+
+}
+#nav2{
+display: flex;
+width: 10%;
+justify-content: space-between;
+margin-left: 30px;
+margin-top:43px; 
+/* border: 1px solid black; */
+
+
+}
+#nav2 img{
+height:40%;
+width: 30px;
+
+}
+#anchor{
+display: flex;
+width:99%;
+margin-left: 10px;
+margin-top: 15px;
+
+}
+#an1{
+display: flex;
+width: 85%;
+justify-content: space-between;
+
+}
+#an1 a{
+text-decoration: none;
+color: black;
+font-size: 18px;
+font-weight: 600;
+
+}
+
+a:hover{
+background-color: rgb(0, 150, 237);
+text-decoration: underline;
+text-decoration: dotted;
+}
+#an2 a{
+text-decoration: none;
+/* color: black; */
+font-size:18px;
+
+}
+#an2{
+display: flex;
+font-weight: 600;
+
+width: 20%;
+justify-content: space-between;
+margin-left: 180px;
+text-align: end;
+
+}
+#ared {
+color: red;
+}
+#ablack{
+color: black;
+}
