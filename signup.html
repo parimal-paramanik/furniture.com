@@ -4,46 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./image/logo.logo.png">
     <title>FURNITURE.COM</title>
    
      <link rel="stylesheet" href="landing.css">
      <style>
+      body{
+        background-color: rgb(255, 255, 255);
+      }
       #main{
-          padding-top:20px;
-          padding-bottom: 50px;
+          padding-top:5px;
+          padding-bottom: 25px;
           width: 400px;
-          height: 16%;
+          height: 13%;
           margin: auto;
-          background-color: rgb(215, 255, 248);
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
       }
       
       #singup>input,#singup>button{
         width: 380px;
           height: 50px;
           margin: 10px;
+          font-weight: 600;
       }
       #login{
           width: 50%;
           height: 100%;
           display: none;
+          font-weight: 600;
       }
       #login>input,#login>button{
           width: 380px;
           height: 50px;
           margin: 10px;
+          font-weight: 600;
       }
       #log{
           width: 400px;
+          
           height: 50px;
           border: none;
           background-color: rgb(109, 216, 238);
           border-radius: 10px;
+          font-weight: 600;
       }
       #sig{
           width: 400px;
           height: 50px;
           border: none;
-          
+          font-weight: 600;
           background-color:  rgb(109, 216, 238);
           border-radius: 15Px;
       }
@@ -61,7 +70,7 @@
    
     <div id="navM">
       <div id="nav1">
-         <a href="landing.html"><img src="./image/furniture.png" alt="furniture.com"></a>  
+         <a href="index.html"><img src="./image/furniture.png" alt="furniture.com"></a>  
          <input  type ="text"  placeholder="  🍳   Search furniture .....everything you find for free shipping" id="Search">
       </div>
 
@@ -75,25 +84,200 @@
 </div>
 <div id="anchor">
   <div id="an1">
-    <a href="">Furniture</a>
-    <a href="">Rugs</a>
-    <a href="">Bedding</a>
-    <a href="">Deccor</a>
-    <a href="">Home Improvement</a>
-    <a href="">Kitchen</a>
-    <a href="">Outdoor</a>
-    <a href="">Lighting</a>
-    <a href="">Kids & Baby</a>
-    <a href="">Gifts</a>
-    <a href="">More</a>
+      <div class="dropdown">
+          <button class="dropbtn">Furniture</button>
+          <div class="dropdown-content">
+              <a href="#">Orders & Returns </a>
+              <a href="#">Garlands </a>
+              <a href="#"> Lamps </a>
+              <a href="#">Bedding </a>
+              <a href="#">Outline</a>
+              <a href="#">Towel</a>
+              <a href="#">Fire star </a>
+              <a href="#">Mugs</a>
+              <a href="#">Orders & Returns</a>
+          </div>
+      </div>
+
+
+      <div class="dropdown">
+          <button class="dropbtn">Bed</button>
+          <div class="dropdown-content">
+              <a href="#">Orders & Returns </a>
+              <a href="#">Garlands </a>
+              <a href="#"> Lamps </a>
+              <a href="#">Bedding </a>
+              <a href="#">Outline</a>
+              <a href="#">Towel</a>
+              <a href="#">Fire star </a>
+              <a href="#">Mugs</a>
+              <a href="#">Orders & Returns</a>
+          </div>
+      </div>
+      <div class="dropdown">
+          <button class="dropbtn">Rugs</button>
+          <div class="dropdown-content">
+              <a href="#">Orders & Returns </a>
+              <a href="#">Garlands </a>
+              <a href="#"> Lamps </a>
+              <a href="#">Bedding </a>
+              <a href="#">Outline</a>
+              <a href="#">Towel</a>
+              <a href="#">Fire star </a>
+              <a href="#">Mugs</a>
+              <a href="#">Orders & Returns</a>
+          </div>
+      </div>
+      <div class="dropdown">
+          <button class="dropbtn">Deccor</button>
+          <div class="dropdown-content">
+              <a href="#">Orders & Returns </a>
+              <a href="#">Garlands </a>
+              <a href="#"> Lamps </a>
+              <a href="#">Bedding </a>
+              <a href="#">Outline</a>
+              <a href="#">Towel</a>
+              <a href="#">Fire star </a>
+              <a href="#">Mugs</a>
+              <a href="#">Orders & Returns</a>
+          </div>
+      </div>
+
+      <div class="dropdown">
+          <button class="dropbtn"> Home Improvement</button>
+          <div class="dropdown-content">
+              <a href="#">Orders & Returns </a>
+              <a href="#">Garlands </a>
+              <a href="#"> Lamps </a>
+              <a href="#">Bedding </a>
+              <a href="#">Outline</a>
+              <a href="#">Towel</a>
+              <a href="#">Fire star </a>
+              <a href="#">Mugs</a>
+              <a href="#">Orders & Returns</a>
+          </div>
+      </div>
+
+      <div class="dropdown">
+          <button class="dropbtn"> Kitchen</button>
+          <div class="dropdown-content">
+              <a href="#">Orders & Returns </a>
+              <a href="#">Garlands </a>
+              <a href="#"> Lamps </a>
+              <a href="#">Bedding </a>
+              <a href="#">Outline</a>
+              <a href="#">Towel</a>
+              <a href="#">Fire star </a>
+              <a href="#">Mugs</a>
+              <a href="#">Orders & Returns</a>
+          </div>
+      </div>
+
+
+      <div class="dropdown">
+          <button class="dropbtn"> Outdoor</button>
+          <div class="dropdown-content">
+              <a href="#">Orders & Returns </a>
+              <a href="#">Garlands </a>
+              <a href="#"> Lamps </a>
+              <a href="#">Bedding </a>
+              <a href="#">Outline</a>
+              <a href="#">Towel</a>
+              <a href="#">Fire star </a>
+              <a href="#">Mugs</a>
+              <a href="#">Orders & Returns</a>
+          </div>
+      </div>
+      <div class="dropdown">
+          <button class="dropbtn"> Lighting</button>
+          <div class="dropdown-content">
+              <a href="#">Orders & Returns </a>
+              <a href="#">Garlands </a>
+              <a href="#"> Lamps </a>
+              <a href="#">Bedding </a>
+              <a href="#">Outline</a>
+              <a href="#">Towel</a>
+              <a href="#">Fire star </a>
+              <a href="#">Mugs</a>
+              <a href="#">Orders & Returns</a>
+          </div>
+      </div>
+      <div class="dropdown">
+          <button class="dropbtn"> Kids & Baby</button>
+          <div class="dropdown-content">
+              <a href="#">Orders & Returns </a>
+              <a href="#">Garlands </a>
+              <a href="#"> Lamps </a>
+              <a href="#">Bedding </a>
+              <a href="#">Outline</a>
+              <a href="#">Towel</a>
+              <a href="#">Fire star </a>
+              <a href="#">Mugs</a>
+              <a href="#">Orders & Returns</a>
+          </div>
+      </div>
+      <div class="dropdown">
+          <button class="dropbtn"> Gifts</button>
+          <div class="dropdown-content">
+              <a href="#">Orders & Returns </a>
+              <a href="#">Garlands </a>
+              <a href="#"> Lamps </a>
+              <a href="#">Bedding </a>
+              <a href="#">Outline</a>
+              <a href="#">Towel</a>
+              <a href="#">Fire star </a>
+              <a href="#">Mugs</a>
+              <a href="#">Orders & Returns</a>
+          </div>
+      </div>
+      <div class="dropdown">
+          <button class="dropbtn"> More</button>
+          <div class="dropdown-content">
+              <a href="#">Orders & Returns </a>
+              <a href="#">Garlands </a>
+              <a href="#"> Lamps </a>
+              <a href="#">Bedding </a>
+              <a href="#">Outline</a>
+              <a href="#">Towel</a>
+              <a href="#">Fire star </a>
+              <a href="#">Mugs</a>
+              <a href="#">Orders & Returns</a>
+          </div>
+      </div>
   </div>
 
   <div id="an2">
-    <a href="" id="ablack">Holiday</a>
-    <a href="" id="ared">Sales & Deals</a>
-    </div>
+      <div class="dropdown">
+          <button class="dropbtn"> Holidays</button>
+          <div class="dropdown-content">
+              <a href="#">Orders & Returns </a>
+              <a href="#">Garlands </a>
+              <a href="#"> Lamps </a>
+              <a href="#">Bedding </a>
+              <a href="#">Outline</a>
+              <a href="#">Towel</a>
+              <a href="#">Fire star </a>
+              <a href="#">Mugs</a>
+              <a href="#">Orders & Returns</a>
+          </div>
+      </div>
+      <div class="dropdown">
+          <button class="dropbtn"> Deals & options</button>
+          <div class="dropdown-content">
+              <a href="#">Orders & Returns </a>
+              <a href="#">Garlands </a>
+              <a href="#"> Lamps </a>
+              <a href="#">Bedding </a>
+              <a href="#">Outline</a>
+              <a href="#">Towel</a>
+              <a href="#">Fire star </a>
+              <a href="#">Mugs</a>
+              <a href="#">Orders & Returns</a>
+          </div>
+      </div>
+  </div>
 </div>
-<a href="./index.html">h</a>
+
 <div class="r">
   <h1>SIGN UP HERE</h1>
 </div>
@@ -115,6 +299,63 @@
       <button id="loging">Log In</button>
   </div>
   </div>
+  <!--  //footer goes here -->
+  <div id="footer">
+                
+    <div>
+        <h5>MY ACCOUNT</h5>
+         <p>Orders & Returns</p>
+        <p>Email Preferences</p>
+        <p>Account Settings</p>
+        <p>Orders & Returns</p>
+       
+     
+    </div>
+
+    <div>
+        <h5>MY ACCOUNT</h5>
+         <p>Orders & Returns</p>
+        <p>Email Preferences</p>
+        <p>Account Settings</p>
+     
+    </div>
+    <div>
+        <h5>MY ACCOUNT</h5>
+         <p>Orders & Returns</p>
+        <p>Email Preferences</p>
+        <p>Account Settings</p>
+        <p>Orders & Returns</p>
+        <p>Email Preferences</p>
+    
+     
+    </div>
+    <div>
+        <h5>MY ACCOUNT</h5>
+         <p>Orders & Returns</p>
+        <p>Email Preferences</p>
+        <p>Account Settings</p>
+        <p>Orders & Returns</p>
+        <p>Email Preferences</p>
+     
+     
+    </div>
+    
+
+  </div>
+  <!-- //footer2 goes here -->
+ <div id="footer2">
+  <div id="footer2-0">
+    <p>© Copyright 2022, Overstock.com®, Inc.</p>
+    <p>799 Coliseum Way Midvale, UT 84047 | 1-800-843-2446</p>
+  </div>
+
+  <div id="footer2-1">
+    <p>Privacy Policy</p>
+    <p>Terms & Conditions</p>
+    <p>*Promotion Terms</p>
+    <p>Ship to </p>
+  </div>
+</div>
  
 
 </body>
